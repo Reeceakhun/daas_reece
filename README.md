@@ -1,6 +1,9 @@
 # User-registration-and-login-without-JWT
 JWT-based user Authentication using ReactJs, Node Express, and MySQL
 
+To obtain the skeletal structure for the package
+
+npx create-react-app 
 
 # on the server directory
 
