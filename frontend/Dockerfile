@@ -10,6 +10,6 @@ RUN npm install
 # carrying out unit test
 RUN npm test -v
 COPY . /code
-
+# carrying out unit test
 
 CMD ["npm", "start"]
