@@ -8,7 +8,7 @@ COPY package.json /code/package.json
 COPY package-lock.json /code/package-lock.json
 RUN npm install
 # carrying out unit test
-# RUN npm test -v
+RUN npm test -v
 COPY . /code
 
 
